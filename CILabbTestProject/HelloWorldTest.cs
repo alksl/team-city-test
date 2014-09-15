@@ -16,11 +16,5 @@ namespace CILabbTestProject
             var hello = new HelloWorld();
             Assert.AreEqual("Hello World!", hello.SayHello());
         }
-
-        [Test]
-        public void failing_test()
-        {
-            Assert.AreEqual(true, false);
-        }
     }
 }
